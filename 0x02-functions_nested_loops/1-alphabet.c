@@ -1,10 +1,12 @@
+#include <unistd.h>
+
 void print_alphabet(void) {
-char letter = 'a';
+  char c = 'a';
 
-while (letter <= 'z') {
-_putchar(letter);
-letter++;
-}
+  while (c <= 'z') {
+    _putchar(c);
+    c++;
+  }
 
-_putchar('\n');
+  _putchar('\n');
 }
