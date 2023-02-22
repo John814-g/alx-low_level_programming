@@ -1,12 +1,20 @@
-#include <unistd.h>
+#include "main.h"
 
-void print_alphabet(void) {
-  char c = 'a';
+/**
+ * print_alphabet - ake the alphabet
+ * REturn void
+ */
 
-  while (c <= 'z') {
-    _putchar(c);
-    c++;
-  }
+void print_alphabet(void)
 
-  _putchar('\n');
-}
+{
+
+	char c;
+
+	for (c = "a"; c <= "z"; c++)
+	{
+	_putchar(c);
+	}
+	_putchar("\n");
+
+}	
