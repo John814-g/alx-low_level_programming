@@ -1,24 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 
-/**
- * main - Entry point
- * Return: Always 0
- */
+int main() {
+  putchar('_');
+  putchar('p');
+  putchar('u');
+  putchar('t');
+  putchar('c');
+  putchar('h');
+  putchar('a');
+  putchar('r');
+  putchar('\n');
+  return 0;
+}
 
-int main(void)
-
-{
-        _putchar("char" _);
-        _putchar("char" p);
-	_putchar("char" u);
-        _putchar("char" t);
-        _putchar("char" c);
-        _putchar("char" h);
-	_putchar("char"  a);
-	_putchar("char" r);	
-        _putchar("\n");
-
-
-        return (0);
-
-}	
